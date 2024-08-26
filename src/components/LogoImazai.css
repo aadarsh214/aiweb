@@ -1,0 +1,36 @@
+.zap-fast-icon {
+  height: 60px;
+  width: 60px;
+  position: relative;
+}
+.imazai {
+  flex: 1;
+  position: relative;
+  line-height: 150%;
+}
+.logo-imazai {
+  position: absolute;
+  top: 30px;
+  left: calc(50% - 151.5px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-2xs-3);
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--additional-white);
+  font-family: var(--font-dm-sans);
+}
+@media screen and (max-width: 800px) {
+  .imazai {
+    font-size: var(--font-size-7xl);
+    line-height: 38px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .imazai {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
+  }
+}

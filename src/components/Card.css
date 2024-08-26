@@ -1,0 +1,80 @@
+.empty-input {
+  position: relative;
+  line-height: 140%;
+  display: inline-block;
+  min-width: 8px;
+}
+.first-step-icon,
+.input-placeholder {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.input-placeholder {
+  width: 50px;
+  height: 50px;
+  border-radius: var(--br-81xl);
+  background-color: var(--colors-base-primary);
+  flex-direction: row;
+  padding: var(--padding-2xs) var(--padding-xl);
+  box-sizing: border-box;
+}
+.first-step-icon {
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+}
+.generate-an-image {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 150%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.enter-yoyr-text {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 160%;
+  color: var(--colors-base-text-paragraph);
+}
+.card,
+.generate {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  font-size: var(--font-size-5xl);
+  color: var(--additional-black);
+}
+.card {
+  width: 555px;
+  border-radius: var(--layout-radius-radius-xl);
+  background-color: var(--default-0);
+  border: 1px solid var(--color-primary-50);
+  box-sizing: border-box;
+  flex-direction: row;
+  padding: var(--padding-lg) var(--padding-xl);
+  gap: var(--gap-xl);
+  max-width: 100%;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--additional-white);
+  font-family: var(--font-dm-sans);
+}
+@media screen and (max-width: 800px) {
+  .card {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .empty-input {
+    font-size: var(--font-size-base);
+    line-height: 22px;
+  }
+  .generate-an-image {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
+  }
+}

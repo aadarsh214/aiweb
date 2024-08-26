@@ -1,0 +1,72 @@
+.image6 {
+  width: 350px;
+  height: 232px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--default-50);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  max-width: 100%;
+}
+.revolutionize {
+  font-family: var(--font-instrument-serif);
+}
+.b {
+  font-family: var(--body-small-medium);
+}
+.revolutionize-your-greetings {
+  margin: 0;
+}
+.revolutionize-your-greetings-container {
+  align-self: stretch;
+  position: relative;
+  font-size: 78px;
+  letter-spacing: 0.01em;
+  color: var(--additional-black);
+  text-align: center;
+  font-family: var(--font-averia-serif-libre);
+}
+.home-page,
+.revolutionize-your-greetings-w-parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.revolutionize-your-greetings-w-parent {
+  align-self: stretch;
+  align-items: flex-end;
+  gap: var(--gap-15xl);
+  max-width: 100%;
+}
+.home-page {
+  width: 100%;
+  position: relative;
+  background-color: var(--default-25);
+  overflow-y: auto;
+  align-items: flex-start;
+  padding: 0 0 69px;
+  box-sizing: border-box;
+  gap: 80px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 800px) {
+  .revolutionize-your-greetings-container {
+    font-size: 62px;
+  }
+  .revolutionize-your-greetings-w-parent {
+    gap: var(--gap-mid);
+  }
+  .home-page {
+    gap: var(--gap-21xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .revolutionize-your-greetings-container {
+    font-size: 47px;
+  }
+  .home-page {
+    gap: var(--gap-xl);
+  }
+}

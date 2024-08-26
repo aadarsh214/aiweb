@@ -1,0 +1,31 @@
+.chevron-left-icon13 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.label15 {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 57px;
+}
+.frame-input {
+  margin: 0;
+  height: 21px;
+  width: 20px;
+}
+.button13 {
+  border-radius: var(--br-81xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) var(--padding-3xs);
+  gap: var(--gap-6xs);
+  text-align: center;
+  font-size: var(--body-small-regular-size);
+  color: var(--default-300);
+  font-family: var(--font-dm-sans);
+}
